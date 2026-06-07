@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Cartão Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- Substitua o link abaixo pela sua foto do GitHub --> <img
+                src="https://avatars.githubusercontent.com/u/290103364?v=4" alt="Foto de Perfil" class="profile-img">
+            <h1>Natália Ferreira</h1>
+            <p class="subtitle">
+                <span>
+                    .✦ ݁˖ Estudante de Tecnologia | Desenvolvedor em Formação | Futuro Designer ๋ ࣭ ⭑ <br>
+                </span>
+
+                ⋆.𐙚 ̊ Trazendo logica autentica e soluções criativas aos seus projetos!
+            </p>
+        </header>
+        <main class="links">
+            <a href="https://github.com/natalia-f-s" class="link-card" onclick="mostrarMensagem('GitHub')">Meu
+                GitHub</a>
+            <a href="mailto:4548164277@estudante.sed.sc.gov.br" class="link-card">E-mail de Contato</a>
+        </main>
+        <footer>
+            <p>Desenvolvido durante a aula do Prof. Jucemar</p>
+        </footer>
+    </div>
+    <script src="script.js">
+        function mostrarMensagem(redeSocial) {
+            console.log("Redirecionando para: " + redeSocial);
+            alert("Você está sendo redirecionado para o meu " + redeSocial + "!");
+        }
+    </script>
+</body>
+
+</html>
